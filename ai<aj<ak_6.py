@@ -7,5 +7,4 @@ for i in range(0,len(a)):
     for k in range(j+1,len(a)):
       if a[i]<a[j] and a[j]<a[k]:
         count+=1
-        break
 print(count)
