@@ -10,4 +10,4 @@ li2=[]
 for i in range(q):
   li2.append(list(map(int,input().split())))
 for i in range(len(li2)):
-  print(gcd(li2[i][0]-1,li2[i][1]-1))
+  print(gcd(li[(li2[i][0]-1)],li[(li2[i][1]-1)]))
