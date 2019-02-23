@@ -1,3 +1,4 @@
+# Soted of appended lists
 n=int(input())
 li=[]
 for i in range(n):
