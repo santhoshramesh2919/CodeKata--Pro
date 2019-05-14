@@ -8,6 +8,7 @@ def bitCount(n):
 
 n=int(input())
 li=list(map(int,input().split(" ")))
+li=sorted(li,reverse=True)
 dic={}
 for i in li:
   dic[i]=bitCount(i)
