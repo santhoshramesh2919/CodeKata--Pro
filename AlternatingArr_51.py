@@ -11,4 +11,4 @@ for j in range(len(li)):
       break
   op.append(c)
 
-print(op)
+print(*op)
