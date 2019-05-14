@@ -11,6 +11,7 @@ li=list(map(int,input().split(" ")))
 dic={}
 for i in li:
   dic[i]=bitCount(i)
-dic=sorted(dic,reverse=True)
+dic=sorted(dic.items(),key=lambda x:x[1],reverse=True)
 for i in dic:
-  print(i)
+  print(i[0])
+  
